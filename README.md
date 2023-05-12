@@ -9,7 +9,7 @@
 ### Input files
 - Both files must have the same sample rate and be in ``.wav`` format and be placed in ``/input_files``
 - Name your recorded audio from your omnidirectionnel microphone: ``omni.wav``
-- Name your recorded audio from your unidirectionnal microphone: ``mono.wav``
+- Name your recorded audio from your unidirectionnal microphone: ``mono.wav`` <br>
 (There already have some recorded test samples to try in ``/input_files``)
 
 ### In your Python IDE
@@ -18,5 +18,5 @@
 ``` python
 pip install win32file
 ```
-- Run ``audacity_script.py``
-You can now listen the file it generated in ``/output_file/treated_audio.wav`` and quit Audacity
+- Run ``audacity_script.py`` <br>
+You can now listen to the treated audio file in ``/output_file/treated_audio.wav`` and quit Audacity
