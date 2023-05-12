@@ -1,4 +1,4 @@
-# BioPhonia x 24h de l'innovation
+# BioPhonia - 24h de l'Innovation
 
 ## Get Started
 
@@ -20,3 +20,5 @@ pip install win32file
 ```
 - Run ``audacity_script.py`` <br>
 You can now listen to the treated audio file in ``/output_file/treated_audio.wav`` and quit Audacity
+
+> :warning: The Noise Reduction cannot take parameters in the script (see [here](https://manual.audacityteam.org/man/scripting_reference.html) in line *NoiseReduction*), so it can only apply the last configuration. To get the same results we have, the first time you try, you must go to ``Effect > Noise Removal and Repair > Noise Reduction`` and set ``Noise reduction (dB)`` at ``30``.
