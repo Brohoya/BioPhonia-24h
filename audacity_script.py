@@ -117,6 +117,7 @@ def apply_noise_pattern_reduction():
     # do_command('NoiseReduction: User_Preset="<Factory Defaults"')
     # do_command('NoiseReduction: Auto')
 
+
 if __name__ == '__main__':
     dir_path = os.path.dirname(os.path.realpath(__file__))
     raw_files_folder = os.path.join(dir_path, "input_files")
@@ -144,5 +145,6 @@ if __name__ == '__main__':
 
     export_wave(os.path.join(output_folder, "treated_audio.wav"))
     print("Treated audio exported")
-    # remove_track(0)
+
+    remove_track(0)
     print("File tracks removed")
